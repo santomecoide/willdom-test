@@ -93,7 +93,7 @@
 
 <script>
 function sortTable(column, direction) {
-    location.href = "http://localhost:3000/data-table?sort=" + column + "&direction=" + direction;
+    location.href = "{{host}}/api/v1/data-table?sort=" + column + "&direction=" + direction;
 }
 
 function filterTable() {

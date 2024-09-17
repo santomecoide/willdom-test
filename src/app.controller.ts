@@ -137,6 +137,7 @@ export const tableDataController = async (
 
     const templateConfig = {
         tableData,
+        host: process.env.HOST
     }
     
     const table = fs.readFileSync('src/table.html')
