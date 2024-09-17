@@ -1,4 +1,4 @@
-import Handlebars from "handlebars";
+import Handlebars from 'handlebars';
 import fs from 'fs';
 
 import DbClient from './db-client'
