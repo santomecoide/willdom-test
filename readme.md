@@ -9,7 +9,9 @@ Welcome to the test API.
 
 ## Usage
 
-1. Start the server dev mode:
+1. set env variables: copy from .env.expample
+
+2. Start the server dev mode:
 
     ```bash
     npm start
