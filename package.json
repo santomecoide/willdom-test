@@ -1,0 +1,25 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "ts-node src/app.ts",
+    "build": "tsc",
+    "serve": "node dist/app.js"
+  },
+  "keywords": [],
+  "author": "mecoide",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^22.5.0",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.4"
+  },
+  "dependencies": {
+    "chart.js": "^4.4.4",
+    "express": "^4.21.0",
+    "handlebars": "^4.7.8",
+    "pg": "^8.12.0"
+  }
+}

@@ -1,0 +1,22 @@
+# Node.js modules
+node_modules/
+
+# Environment variables
+.env
+
+# Build output
+dist/
+
+# TypeScript
+*.tsbuildinfo
+*.tsc
+
+# IDE and editor settings
+.vscode/
+
+# Optional npm cache directory
+.npm/
+
+# Optional lock files
+package-lock.json
+yarn.lock
